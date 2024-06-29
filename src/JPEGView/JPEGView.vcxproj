@@ -132,7 +132,7 @@
       <AdditionalOptions>/IGNORE:4099 %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <Manifest>
-      <EnableDPIAwareness>true</EnableDPIAwareness>
+      <EnableDPIAwareness>PerMonitorHighDPIAware</EnableDPIAwareness>
     </Manifest>
     <PostBuildEvent>
       <Command>call "$(SolutionDir)..\extras\scripts\JPEGView.vcxproj-postbuild-event.bat" "$(PlatformArchitecture)" "$(ProjectName)" "$(ProjectDir)" "$(OutDirFullPath)"</Command>
@@ -181,7 +181,7 @@
       <AdditionalOptions>/IGNORE:4099 %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <Manifest>
-      <EnableDPIAwareness>true</EnableDPIAwareness>
+      <EnableDPIAwareness>PerMonitorHighDPIAware</EnableDPIAwareness>
     </Manifest>
     <PostBuildEvent>
       <Command>call "$(SolutionDir)..\extras\scripts\JPEGView.vcxproj-postbuild-event.bat" "$(PlatformArchitecture)" "$(ProjectName)" "$(ProjectDir)" "$(OutDirFullPath)"</Command>
@@ -236,7 +236,7 @@
       <AdditionalOptions>/IGNORE:4099 %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <Manifest>
-      <EnableDPIAwareness>true</EnableDPIAwareness>
+      <EnableDPIAwareness>PerMonitorHighDPIAware</EnableDPIAwareness>
     </Manifest>
     <PostBuildEvent>
       <Command>call "$(SolutionDir)..\extras\scripts\JPEGView.vcxproj-postbuild-event.bat" "$(PlatformArchitecture)" "$(ProjectName)" "$(ProjectDir)" "$(OutDirFullPath)"</Command>
@@ -289,7 +289,7 @@
       <AdditionalOptions>/IGNORE:4099 %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <Manifest>
-      <EnableDPIAwareness>true</EnableDPIAwareness>
+      <EnableDPIAwareness>PerMonitorHighDPIAware</EnableDPIAwareness>
     </Manifest>
     <PostBuildEvent>
       <Command>call "$(SolutionDir)..\extras\scripts\JPEGView.vcxproj-postbuild-event.bat" "$(PlatformArchitecture)" "$(ProjectName)" "$(ProjectDir)" "$(OutDirFullPath)"</Command>
